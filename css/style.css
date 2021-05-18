@@ -198,7 +198,12 @@ body{
     
 }
 @media screen and (min-width:768px){
-    
+    .imgmain{
+        background-image:linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.5)
+          ), url(../images/portada.jpg);
+    }
 }
 
 @media screen and (min-width:1020px){
